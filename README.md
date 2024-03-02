@@ -6,7 +6,7 @@ This jQuery Cheatsheet provides examples and explanations of various jQuery func
 
 ## Description
 
-This JavaScript file (`jquery-cheatsheet.js`) contains examples of how to use jQuery to perform common tasks such as selecting elements, manipulating CSS and content, handling events, making AJAX requests, applying effects, and handling form submissions.
+This JavaScript file (`jquery-basic-cheatsheet.js`) contains examples of how to use jQuery to perform common tasks such as selecting elements, manipulating CSS and content, handling events, making AJAX requests, applying effects, and handling form submissions.
 
 ## Contents
 
