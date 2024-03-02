@@ -25,4 +25,4 @@ This JavaScript file (`jquery-basic-cheatsheet.js`) contains examples of how to 
 
 ```html
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="jquery-cheatsheet.js"></script>
+<script src="jquery-basic-cheatsheet.js"></script>
