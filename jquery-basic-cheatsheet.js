@@ -21,6 +21,97 @@ $(document).ready(function() {
         $("#content").html("<p>Content replaced!</p>");
     });
 
+    // Getting text content
+    $("#demo").click(function() {
+        $(this).text();
+    });
+    
+    // Getting field value
+    $("#demo").click(function() {
+        $(this).val();
+    });
+    
+    // Setting HTML content
+    $("#demo").click(function() {
+        $(this).html('Hey <em>yo</em>');
+    });
+    
+    // Getting an attribute
+    $("#link").click(function() {
+        $(this).attr("href");
+    });
+    
+    // Setting an attribute
+    $("#link").click(function() {
+        $(this).attr("href", 'https://html6.com');
+    });
+    
+    // Setting multiple attributes
+    $("#link").click(function() {
+        $(this).attr({
+            "href": "https://html6.com",
+            "title": "HTML Editor"
+        });
+    });
+    
+    // Using a callback function to get and change the attribute
+    $("#link").click(function() {
+        $(this).attr("href", function(i, origValue) {
+            return origValue + "/help";
+        });
+    });
+    
+    // Adding content at the beginning in the selected elements
+    $(".demo").click(function() {
+        $(this).prepend("Yo!");
+    });
+    
+    // Adding content at the end in the selected elements
+    $(".demo").click(function() {
+        $(this).append("<em>Hey!</em>");
+    });
+    
+    // Adding content before the selected elements
+    $(".demo").click(function() {
+        $(this).before("Cheers");
+    });
+    
+    // Adding content after the selected elements
+    $(".demo").click(function() {
+        $(this).after("<em>Peace</em>");
+    });
+    
+    // Removing the selected element
+    $("#demo").click(function() {
+        $(this).remove();
+    });
+    
+    // Removing children
+    $("#demo").click(function() {
+        $(this).empty();
+    });
+    
+    // Removing divs with the listed classes
+    $("div").click(function() {
+        $(this).remove(".cl1, .cl2");
+    });
+    
+    // Adding a class
+    $("#demo").click(function() {
+        $(this).addClass("big red");
+    });
+    
+    // Removing a class
+    $("h1, p").click(function() {
+        $(this).removeClass("red");
+    });
+    
+    // Toggling between adding and removing a class
+    $("#demo").click(function() {
+        $(this).toggleClass("big");
+    });
+
+
     // Additional content manipulation methods
     $("#remove-content").click(function() { // Empties the content of the element with id "content"
         $("#content").empty();
