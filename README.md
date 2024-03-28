@@ -218,5 +218,3 @@ document.getElementById("my-form-post").addEventListener("submit", function(even
 });
 // Form submission using GET follows a similar pattern.
 ```
-
-### Additional functionalities and examples follow a similar pattern.
